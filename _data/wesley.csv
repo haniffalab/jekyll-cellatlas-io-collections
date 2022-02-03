@@ -1,0 +1,11 @@
+name,desc,category,tags,tissue,assay,disease,organism,count,insight_link,cellxgene_link,vitessce_link,h5ad_object_link,scvi_model_link,celltypist_model_link,csv_cell_annotations_link,hires_image_link
+Primary cell type - Cholangiocytes,,scRNA-seq,scRNA-seq,,,None,Homo sapiens,0,,,,https://storage.googleapis.com/haniffalab/partners/wesley/Chalangiocyte-like_cells_CLC_ad.h5ad,,,,
+Primary cell type - Endothelial,,scRNA-seq,"scRNA-seq,Cell type lineage",,,None,Homo sapiens,0,,,,https://storage.googleapis.com/haniffalab/partners/wesley/Endothelial-like_cells_ELC_ad.h5ad,,,,
+Primary cell type - Hepatocytes,,scRNA-seq,"scRNA-seq,Cell type lineage",,,None,Homo sapiens,0,,,,https://storage.googleapis.com/haniffalab/partners/wesley/Hepatocytes_primary_ad.h5ad,,,,
+Primary cell type - Kupffer,,scRNA-seq,"scRNA-seq,Cell type lineage",,,None,Homo sapiens,0,,,,https://storage.googleapis.com/haniffalab/partners/wesley/Hepatocytes_primary_ad.h5ad,,,,
+Primary cell type - Stellate,,scRNA-seq,"scRNA-seq,Cell type lineage",,,None,Homo sapiens,0,,,,https://storage.googleapis.com/haniffalab/partners/wesley/Stellate_primary_ad.h5ad,,,,
+hiPSC-derived - Chalangiocyte like cells (CLC),,scRNA-seq,"scRNA-seq,Cell type lineage",,,None,Homo sapiens,0,,,,https://storage.googleapis.com/haniffalab/partners/wesley/Chalangiocyte-like_cells_CLC_ad.h5ad,,,,
+Endothelial-like_cells_ELC_ad (hiPSC-derived cell types),,scRNA-seq,"scRNA-seq,Cell type lineage",,,None,Homo sapiens,0,,,,https://storage.googleapis.com/haniffalab/partners/wesley/Endothelial-like_cells_ELC_ad.h5ad,,,,
+Hepatic stellate-like_cells_HSLC_ad (hiPSC-derived cell types),,scRNA-seq,"scRNA-seq,Cell type lineage",,,None,Homo sapiens,0,,,,https://storage.googleapis.com/haniffalab/partners/wesley/HepaticStellate-like_cells_HSLC_ad.h5ad,,,,
+Hepatocyte-like_cells_HLC_ad (hiPSC-derived cell types),,scRNA-seq,scRNA-seq,,,None,Homo sapiens,0,,,,https://storage.googleapis.com/haniffalab/partners/wesley/HepaticStellate-like_cells_HSLC_ad.h5ad,,,,
+Macrophage-like_cells_MLC_ad (hiPSC-derived cell types),,scRNA-seq,scRNA-seq,,,None,Homo sapiens,,,,,https://storage.googleapis.com/haniffalab/partners/wesley/Macrophage-like_cells_MLC_ad.h5ad,,,,

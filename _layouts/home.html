@@ -1,0 +1,90 @@
+---
+layout: default
+---
+<!-- Page Content -->
+<div class="page-content">
+  <!-- Content -->
+  <div class="content clearfix">
+    <div id="introduction" class="container">
+      <div class="section-title col-lg-8 col-md-10 ml-auto mr-auto">
+        <p class="lead">A single cell atlas of the developing blood and immune system. Mauris interdum congue
+          urna ut tincidunt. Sed ac magna gravida, volutpat leo et, mattis dui. Fusce ultricies dolor et turpis
+          tristique, sed posuere leo ornare. Curabitur metus nibh, hendrerit non tristique sed</p>
+      </div>
+    </div>
+    <!-- Collections -->
+    <div id="collections" class="container mb-5 pt-5">
+      <div class="section-title col-lg-8 col-md-10 ml-auto mr-auto">
+        <h3 class="mb-4">Collections</h3>
+        <p>Each collection displays a curated set of datasets associated with a publication. Data can be
+          visualised with interactive software, or downloaded for further interrogation.</p>
+      </div>
+      <div class="col-md-10 ml-auto mr-auto">
+        <div class="table">
+          <div class="row header">
+            <div class="cell">
+              Collection
+            </div>
+            <div class="cell">
+              Tissue
+            </div>
+            <div class="cell">
+              Assay
+            </div>
+            <div class="cell">
+              Organism
+            </div>
+          </div>
+          {% assign posts = site.posts | where: "listed", true %}
+          {% for post in posts %}
+          {% assign datasets_csv = post.permalink %}
+          <div class="row">
+            <div class="cell" data-title="Collection">
+              <a class="row" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </div>
+            <div class="cell nowrap" data-title="Tissue">
+              {% assign tissues = "" | split: ',' %}
+              {% for dataset in site.data[datasets_csv] %}
+                {% assign list = dataset.tissue | split: "," %}
+                {% for tissue in list %}
+                  {% assign tissues = tissues | push: tissue %}
+                {% endfor %} 
+              {% endfor %} 
+              {% assign all_tissues = tissues | compact | uniq | sort %}
+              {% for tissue in all_tissues %}
+                {{ tissue }}<br />
+              {% endfor %}  
+            </div>
+            <div class="cell nowrap" data-title="Assay">
+              {% assign assays = "" | split: ',' %}
+              {% for dataset in site.data[datasets_csv] %}
+                {% assign list = dataset.assay | split: "," %}
+                {% for assay in list %}
+                  {% assign assays = assays | push: assay %}
+                {% endfor %} 
+              {% endfor %} 
+              {% assign all_assays = assays | compact | uniq | sort %}
+              {% for assay in all_assays %}
+                {{ assay }}<br />
+              {% endfor %}
+            </div>
+            <div class="cell" data-title="Organism">
+              {% assign organisms = "" | split: ',' %}
+              {% for dataset in site.data[datasets_csv] %}
+                {% assign list = dataset.organism | split: "," %}
+                {% for organism in list %}
+                  {% assign organisms = organisms | push: organism %}
+                {% endfor %}
+              {% endfor %} 
+              {% assign all_organisms = organisms | compact | uniq | sort %}
+              {% for organism in all_organisms %}
+                {{ organism }}<br />
+              {% endfor %}
+            </div>
+          </div>                                     
+          {% endfor %}  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
