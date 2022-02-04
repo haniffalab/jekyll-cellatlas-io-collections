@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: wesley
+permalink: liver-development
 published: true
 listed: false
 title: "Single-cell atlas of human liver development reveals pathways directing hepatic cell fates"
