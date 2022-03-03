@@ -9,6 +9,8 @@ Jekyll requires the following:
 
 * Ruby version 2.5.0 or higher
 
+Please be aware thagt using Ruby version 3 may cause errors during the build. 
+
 ## Installation
 
 ```sh
