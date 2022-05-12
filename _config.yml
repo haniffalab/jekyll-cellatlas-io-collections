@@ -21,7 +21,7 @@
 title: CellAtlas.io Collections
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Single cell atlas
+  Single cell atlas of the developing blood and immune system
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: G-J5LHTZVBRJ
