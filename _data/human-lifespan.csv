@@ -1,4 +1,4 @@
 name,desc,category,tags,tissue,assay,disease,organism,count,insight_link,cellxgene_link,vitessce_link,h5ad_object_link,scvi_model_link,celltypist_model_link,csv_cell_annotations_link,hires_image_link
 CD34+ heamatopoiesis stem and progenitor cells,,CITE-seq,CITE-seq,"Yolk sac,Embryonic liver,Fetal liver,Fetal bone marrow,Cord blood,Peadiatric bone marrow,Adult bone marrow,Adult spleen",10x v3.1,None,Homo sapiens,0,,,,,,,,
 Mononuclear cells  ,,CITE-seq,CITE-seq,"Yolk sac,Embryonic liver,Fetal liver,Fetal bone marrow,Cord blood,Peadiatric bone marrow,Adult bone marrow,Adult spleen",10x v3.1,None,Homo sapiens,0,,,,,,,,
-Testing muon object,,CITE-seq,CITE-seq,"Yolk sac,Embryonic liver,Fetal liver,Fetal bone marrow,Cord blood,Peadiatric bone marrow,Adult bone marrow,Adult spleen",10x v3.1,None,Homo sapiens,34034,,,,,,,,
+Adult bone marrow (test muon object),,CITE-seq,CITE-seq,Adult bone marrow,10x v3.1,None,Homo sapiens,34034,,,,,,,,
