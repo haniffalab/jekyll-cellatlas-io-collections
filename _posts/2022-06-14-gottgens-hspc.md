@@ -3,7 +3,7 @@ layout: post
 permalink: gottgens-hspc
 published: true
 listed: false
-title: "Single Cell protein-transcriptome atlas of heamatopoiesis across the human lifespan"
+title: "Single Cell protein-transcriptome atlas of hematopoiesis across the human lifespan"
 date: 2022-01-11 00:00:00 +0000
 categories: 
 contact: Mariana Quiroga Londono
