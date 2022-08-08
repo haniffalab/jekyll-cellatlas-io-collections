@@ -8,8 +8,8 @@ date: 2022-02-03 00:00:00 +0000
 categories: 
 contact: Brandon Tyler Wesley
 contact_email: btwesley [at] stanford [dot] edu
-doi: 
-doi_link: 
+doi: 10.1101/2022.03.08.482299
+doi_link: https://doi.org/10.1101/2022.03.08.482299
 lab: Vallier Group
 lab_website: https://www.sanger.ac.uk/group/vallier-group/
 raw_data_link: 
