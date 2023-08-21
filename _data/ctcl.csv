@@ -1,3 +1,3 @@
 name,desc,category,tags,tissue,assay,disease,organism,count,insight_link,cellxgene_link,vitessce_link,h5ad_object_link,scvi_model_link,celltypist_model_link,csv_cell_annotations_link,hires_image_link
-CTCL1-8_final_portal-001.h5ad,,scRNA-seq,scRNA-seq,,,,Homo sapiens,279561,https://app.cellatlas.io/ctcl/dataset/1/scatterplot,,,https://storage.googleapis.com/haniffalab/ctcl/CTCL1-8_final_portal-001.h5ad,,,,
-CTCL1-8_skin_atlas_integration_final_portal-002.h5ad,,scRNA-seq,scRNA-seq,,,,Homo sapiens,717561,https://app.cellatlas.io/ctcl/dataset/2/scatterplot,,,https://storage.googleapis.com/haniffalab/ctcl/CTCL1-8_skin_atlas_integration_final_portal-002.h5ad,,,,
+CTCL1-8_final_portal-001.h5ad,,scRNA-seq,scRNA-seq,,,,Homo sapiens,279561,https://app.cellatlas.io/ctcl/dataset/3/scatterplot,,,https://storage.googleapis.com/haniffalab/ctcl/CTCL1-8_final_portal-001.h5ad,,,,
+CTCL1-8_skin_atlas_integration_final_portal-002.h5ad,,scRNA-seq,scRNA-seq,,,,Homo sapiens,717561,https://app.cellatlas.io/ctcl/dataset/4/scatterplot,,,https://storage.googleapis.com/haniffalab/ctcl/CTCL1-8_skin_atlas_integration_final_portal-002.h5ad,,,,
